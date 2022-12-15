@@ -1,0 +1,150 @@
+@media screen and (max-width:1300px)
+{
+    .vertical-rl
+    {
+        writing-mode:inherit;
+    }
+    .grid-back3
+    {
+        display: block;
+    }
+    .pictransition
+    {
+        max-width: 70%;
+    }
+    
+    .grid-content
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-right: 60px; */
+        /* width: 100%; */
+        
+    }
+    .grid-content2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+        
+    }
+    .grid-content3
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-right: 75px; */
+    }
+    .grid-front2
+    {
+        margin-bottom: 0px;
+    }
+    .portbody
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:200px 320px 50px 200px 320px 80px 200px 320px 50px;
+    grid-template-areas: 
+        "side"
+        "content"
+        "back"
+        "side2" 
+        "content2" 
+        "front2"
+        "side3"
+        "content3" 
+        "back3"
+    ;
+    row-gap: 0px;
+    column-gap: 0px;
+
+    
+}
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+}
+
+
+@media screen and (min-width:1500px) 
+{
+    .grid-content2 img{
+        /* display: flex;
+        margin-left: 645px; */
+    };
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:420px) 
+{
+
+    .topnav a:not(:first-child)
+{
+    display: none;
+}
+
+.topnav a.icon{
+    float:right;
+    margin-top: -17px;
+    display:block;
+    color: #fbfbfb;;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    /* text-align:end; */
+   
+}
+header
+{
+    /* justify-content: left; */
+    text-align: left;
+}
+
+.topnav.responsive{
+    position: relative;
+}
+.topnav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+}
+.headtext h1
+{
+    font-size: 50px;
+    max-width: 100%;
+}
+.headtext p
+{
+    font-size: 10px;
+    max-width: 100%;
+}
+.movetext
+{
+    padding-top: 60px;
+}
+
+}
